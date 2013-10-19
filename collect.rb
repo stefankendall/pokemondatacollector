@@ -1,7 +1,7 @@
 require_relative('pokemon_query')
 require_relative('query_parser')
 
-pokemon_names = File.readlines('all-pokemon.txt')
+pokemon_names = File.readlines('remaining.txt')
 pokemon_names.each do |name|
   name.gsub!(/\s+/, '')
   pokemon_query = PokemonQuery.new

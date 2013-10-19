@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <queryresult success='true'
     error='false'
-    numpods='6'
-    datatypes='PlaneCurve,Pokemon'
+    numpods='3'
+    datatypes='Pokemon'
     timedout=''
     timedoutpods=''
-    timing='2.312'
-    parsetiming='0.081'
+    timing='0.942'
+    parsetiming='0.461'
     parsetimedout='false'
     recalculate=''
-    id='MSPa106121idd330a3f545abc00004h7h78e1b057i4h8'
-    host='http://www4b.wolframalpha.com'
-    server='62'
-    related='http://www4b.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa106131idd330a3f545abc00003b6ega91i4h2dae7&amp;s=62'
+    id='MSPa2972214746034ec92a0h000022e88g9875gffbcb'
+    host='http://www5a.wolframalpha.com'
+    server='20'
+    related='http://www5a.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa2973214746034ec92a0h000024182h0h2a29i09d&amp;s=20'
     version='2.6'>
  <pod title='Input interpretation'
      scanner='Identity'
@@ -21,18 +21,34 @@
      error='false'
      numsubpods='1'>
   <subpod title=''>
-   <plaintext>Charizard</plaintext>
-   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP106141idd330a3f545abc000019b71934haefhc51?MSPStoreType=image/gif&amp;s=62'
-       alt='Charizard'
-       title='Charizard'
-       width='64'
+   <plaintext>Charizard | type</plaintext>
+   <img src='http://www5a.wolframalpha.com/Calculate/MSP/MSP2974214746034ec92a0h000069gahdde21729ghc?MSPStoreType=image/gif&amp;s=20'
+       alt='Charizard | type'
+       title='Charizard | type'
+       width='121'
+       height='23' />
+  </subpod>
+ </pod>
+ <pod title='Result'
+     scanner='Data'
+     id='Result'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <plaintext>fire  |  flying</plaintext>
+   <img src='http://www5a.wolframalpha.com/Calculate/MSP/MSP2975214746034ec92a0h000066c3c24967e22ch0?MSPStoreType=image/gif&amp;s=20'
+       alt='fire  |  flying'
+       title='fire  |  flying'
+       width='85'
        height='18' />
   </subpod>
  </pod>
  <pod title='Basic properties'
      scanner='Data'
      id='BasicProperties:PokemonData'
-     position='200'
+     position='300'
      error='false'
      numsubpods='1'>
   <subpod title=''>
@@ -44,7 +60,7 @@ Pokédex color | red
 generation | Generation I
 icon | 
 footprint | </plaintext>
-   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP106151idd330a3f545abc00000ch1d08ca2b84ac9?MSPStoreType=image/gif&amp;s=62'
+   <img src='http://www5a.wolframalpha.com/Calculate/MSP/MSP2976214746034ec92a0h00002f1af8aidfde7h97?MSPStoreType=image/gif&amp;s=20'
        alt='English name | Charizard
 Japanese name | \:30ea\:30b6\:30fc\:30c9\:30f3  (Rizādon)
 Pokédex number | 6
@@ -65,138 +81,4 @@ footprint | '
        height='269' />
   </subpod>
  </pod>
- <pod title='Physical characteristics'
-     scanner='Data'
-     id='PhysicalCharacteristics:PokemonData'
-     position='300'
-     error='false'
-     numsubpods='1'>
-  <subpod title=''>
-   <plaintext>species | Flame Pokémon
-height | 5&apos; 7&quot;
-weight | 199.5 lb
-proportion of females | 12.5%
-proportion of males | 87.5%
-evolves from | Charmeleon
-natural abilities | Blaze
-Dream World abilities | Solar Power</plaintext>
-   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP106161idd330a3f545abc00003gf94008feedi03g?MSPStoreType=image/gif&amp;s=62'
-       alt='species | Flame Pokémon
-height | 5&apos; 7&quot;
-weight | 199.5 lb
-proportion of females | 12.5%
-proportion of males | 87.5%
-evolves from | Charmeleon
-natural abilities | Blaze
-Dream World abilities | Solar Power'
-       title='species | Flame Pokémon
-height | 5&apos; 7&quot;
-weight | 199.5 lb
-proportion of females | 12.5%
-proportion of males | 87.5%
-evolves from | Charmeleon
-natural abilities | Blaze
-Dream World abilities | Solar Power'
-       width='296'
-       height='260' />
-  </subpod>
-  <states count='1'>
-   <state name='Show metric'
-       input='PhysicalCharacteristics:PokemonData__Show metric' />
-  </states>
-  <infos count='1'>
-   <info>
-    <units count='3'>
-     <unit short='ft'
-         long='feet' />
-     <unit short='in'
-         long='inches' />
-     <unit short='lb'
-         long='pounds' />
-     <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP106171idd330a3f545abc000012g50e4h70ie5cia?MSPStoreType=image/gif&amp;s=62'
-         width='96'
-         height='68' />
-    </units>
-   </info>
-  </infos>
- </pod>
- <pod title='Statistics'
-     scanner='Data'
-     id='Statistics:PokemonData'
-     position='400'
-     error='false'
-     numsubpods='1'>
-  <subpod title=''>
-   <plaintext>hit points | 78
-attack | 84
-defense | 78
-special attack | 109
-special defense | 85
-speed | 100
-total stats | 534
-(base statistics at initial level)</plaintext>
-   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP106181idd330a3f545abc00005ei06ag337654437?MSPStoreType=image/gif&amp;s=62'
-       alt='hit points | 78
-attack | 84
-defense | 78
-special attack | 109
-special defense | 85
-speed | 100
-total stats | 534
-(base statistics at initial level)'
-       title='hit points | 78
-attack | 84
-defense | 78
-special attack | 109
-special defense | 85
-speed | 100
-total stats | 534
-(base statistics at initial level)'
-       width='500'
-       height='249' />
-  </subpod>
- </pod>
- <pod title='Image'
-     scanner='Data'
-     id='Image:PokemonData'
-     position='500'
-     error='false'
-     numsubpods='1'>
-  <subpod title=''>
-   <plaintext></plaintext>
-   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP106191idd330a3f545abc00000g9bied8dca0ch6d?MSPStoreType=image/gif&amp;s=62'
-       alt=''
-       title=''
-       width='150'
-       height='115' />
-  </subpod>
- </pod>
- <pod title='Associated plane curve'
-     scanner='Data'
-     id='PlaneCurve:PokemonData'
-     position='600'
-     error='false'
-     numsubpods='1'>
-  <subpod title=''>
-   <plaintext></plaintext>
-   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP106201idd330a3f545abc0000448h218d984hi4da?MSPStoreType=image/gif&amp;s=62'
-       alt=''
-       title=''
-       width='159'
-       height='140' />
-  </subpod>
- </pod>
- <assumptions count='1'>
-  <assumption type='Clash'
-      word='Charizard'
-      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
-      count='2'>
-   <value name='Pokemon'
-       desc='a Pokémon'
-       input='*C.Charizard-_*Pokemon-' />
-   <value name='FictionalCharacter'
-       desc=' referring to a fictional character'
-       input='*C.Charizard-_*FictionalCharacter-' />
-  </assumption>
- </assumptions>
 </queryresult>
