@@ -12,6 +12,6 @@ Find.find('./types') do |filename|
     json[name] = stripped_types
   end
 end
-File.open('pokemon.json', 'w') do |f|
+File.open('types.json', 'w') do |f|
   f.write(json.to_json)
 end

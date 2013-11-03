@@ -1,5 +1,5 @@
 require 'xmlsimple'
-class QueryParser
+class TypeQueryParser
   def get_types(xml_data)
     data_object = XmlSimple.xml_in(xml_data)
     type_pod = data_object['pod'].select {|p| p['title'] == 'Result'}[0]
