@@ -4,7 +4,7 @@ require_relative('base_stats_query_parser')
 
 pokemon_names = File.readlines('remaining.txt')
 pokemon_names.each do |name|
-  name.gsub!(/\s+/, '')
+  name.strip!
   pokemon_query = BaseStatsQuery.new
   data = pokemon_query.query(name)
   base_stats = BaseStatsQueryParser.new().get_base_stats(data)
