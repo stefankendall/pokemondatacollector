@@ -8,7 +8,7 @@ pokemon_names.each do |name|
   data = pokemon_query.query(name)
   types = QueryParser.new().get_types(data)
   puts "Name: #{name} types: #{types}"
-  File.open("./data/#{name}", 'w') do |f|
+  File.open("./types/#{name}", 'w') do |f|
     f.write(types.join(','))
   end
 end

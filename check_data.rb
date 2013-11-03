@@ -1,8 +1,8 @@
 require 'find'
 
 unique_types = []
-Find.find('./data') do |filename|
-  if filename != "./data"
+Find.find('./types') do |filename|
+  if filename != "./types"
     types = File.read(filename).split(',')
     for type in types
       type.strip!

@@ -1,8 +1,8 @@
 require 'find'
 require 'json'
 json = {}
-Find.find('./data') do |filename|
-  if filename != "./data"
+Find.find('./types') do |filename|
+  if filename != "./types"
     name = filename[filename.rindex('/')+1..filename.length]
     types = File.read(filename).split(',')
     stripped_types = []
