@@ -1,0 +1,25 @@
+<queryresult success="true" error="false" numpods="2" datatypes="Pokemon" timedout="" timedoutpods="" timing="0.837"
+             parsetiming="0.434" parsetimedout="false" recalculate="" id="MSPa53721e2087164f72626a00001442282b319ah872"
+             host="http://www4b.wolframalpha.com" server="18"
+             related="http://www4b.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa53731e2087164f72626a0000239g172gcd4858bh&amp;s=18"
+             version="2.6">
+  <pod title="Input interpretation" scanner="Identity" id="Input" position="100" error="false" numsubpods="1">
+    <subpod title="">
+      <plaintext>Charizard | statistics</plaintext>
+      <img src="http://www4b.wolframalpha.com/Calculate/MSP/MSP53741e2087164f72626a00004h5c0309946g7f25?MSPStoreType=image/gif&amp;s=18"
+           alt="Charizard | statistics" title="Charizard | statistics" width="150" height="23"/>
+    </subpod>
+  </pod>
+  <pod title="Result" scanner="Data" id="Statistics:PokemonData" position="200" error="false" numsubpods="1">
+    <subpod title="">
+      <plaintext>
+        hit points | 78 attack | 84 defense | 78 special attack | 109 special defense | 85 speed | 100 total stats | 534
+        (base statistics at initial level)
+      </plaintext>
+      <img src="http://www4b.wolframalpha.com/Calculate/MSP/MSP53751e2087164f72626a00001eb48if420929ch8?MSPStoreType=image/gif&amp;s=18"
+           alt="hit points | 78 attack | 84 defense | 78 special attack | 109 special defense | 85 speed | 100 total stats | 534 (base statistics at initial level)"
+           title="hit points | 78 attack | 84 defense | 78 special attack | 109 special defense | 85 speed | 100 total stats | 534 (base statistics at initial level)"
+           width="500" height="249"/>
+    </subpod>
+  </pod>
+</queryresult>
